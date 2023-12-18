@@ -1,0 +1,104 @@
+body{
+    background-color: pink;
+}
+
+@media(min-width: 1601px){
+    body{
+      background-color: pink;
+    }
+  }
+
+
+.clock{
+    width: 900px;
+    height: 750px;
+    background-color: white;
+    position: relative;
+    
+}
+
+img.red{
+    width: 560px;
+    height: 400px;
+    float: left;   
+    
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #3498db;
+}
+
+p.black{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #3498db;
+    clear: left;
+}
+
+footer{
+    clear: left;
+    font-family:'Raleway', sans-serif; 
+    color: #3498db;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.yellow{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 1050px;
+    bottom: 650px;
+    border-radius: 50%;
+}
+
+p.key{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #3498db;
+}
+
+.pen{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 1150px;
+    bottom: 350px;
+    border-radius: 50%;
+}
+
+img.phone{
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nokie{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 1105px;
+    bottom: 100px;
+    border-radius: 50%;
+}
+
+#light{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #3498db;
+}
+
+p.ban{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #3498db;
+}
